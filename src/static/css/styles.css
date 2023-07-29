@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Interactive Pitch Deck Styles */
+#interactive-deck {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+/* AI Character Demo Styles */
+#ai-character-demo {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* NFT Wallet Showcase Styles */
+#nft-wallet-showcase {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Personalized AI Experience Styles */
+#personalized-ai-experience {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Live Minting Styles */
+#live-minting {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Data Visualization Styles */
+#data-visualization {
+    width: 100%;
+    height: 500px;
+}

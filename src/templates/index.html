@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor Experience Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</head>
+<body>
+    <header>
+        <h1>Investor Experience Platform</h1>
+    </header>
+    <main>
+        <section id="interactive-deck">
+            <h2>Interactive Pitch Deck</h2>
+            <iframe src="https://elysium-pitch.pages.dev" width="100%" height="500px"></iframe>
+        </section>
+        <section id="ai-character-demo">
+            <h2>Interactive AI Character Demo</h2>
+            <div id="chat-interface"></div>
+        </section>
+        <section id="nft-wallet-showcase">
+            <h2>NFT Wallet Showcase</h2>
+            <div id="nft-demo"></div>
+        </section>
+        <section id="personalized-ai-experience">
+            <h2>Personalized AI Experience</h2>
+            <form id="preference-survey"></form>
+        </section>
+        <section id="live-minting">
+            <h2>Live Minting of Investor-Specific AI NFT</h2>
+            <div id="minting-demo"></div>
+        </section>
+        <section id="data-visualization">
+            <h2>Dynamic Data Visualization</h2>
+            <div id="visualization-demo"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2022 Investor Experience Platform</p>
+    </footer>
+</body>
+</html>
